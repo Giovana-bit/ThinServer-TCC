@@ -468,6 +468,18 @@ section{
     }
 }
 
+.fa-linkedin {
+    color: var(--black); /* Cor do ícone (azul LinkedIn padrão) */
+    background-color: var(--white); /* Cor de fundo (branco) */
+    padding: 0.5rem; /* Adiciona um pequeno preenchimento */
+    border-radius: 5px; /* Arredonda os cantos */
+}
+
+.fa-linkedin:hover {
+    color: white;
+    background-color: #0077b5; /* Cor de fundo ao passar o mouse */
+}
+
 @media (max-width:600px){
     html{
         font-size: 50%;
